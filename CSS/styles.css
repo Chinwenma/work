@@ -186,7 +186,7 @@ p {
     left: 0;
     width: 100%;
     z-index: 999;
-    background-color: rgb(77, 105, 174);
+    background-color:  #c1adbd;
     -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
     animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
@@ -239,7 +239,7 @@ p {
 .banner_wrapper .swiper-pagination-bullets .swiper-pagination-bullet {
     width: .9375rem;
     height: .9375rem;
-    background-color: var(--secondary-color);
+    background-color: #c1adbd;
     border: .0625rem solid var(--bg-white);
 }
 
@@ -259,12 +259,13 @@ p {
 }
 
 .booking-area {
-    background: var(--bg-white);
+    background:  #c1adbd;
     box-shadow: 0 .625rem .9375rem 0 rgb(0 0 0 / 10%);
     margin-top: -4rem;
     padding: 3.125rem 1.875rem;
     position: relative;
     z-index: 2;
+    border-radius: 20px;
 }
 
 .booking-area .form-control,
