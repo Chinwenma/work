@@ -242,7 +242,10 @@ p {
     background-color: #c1adbd;
     border: .0625rem solid var(--bg-white);
 }
-
+ .ok img {
+    display: block;
+    margin: 0 auto;
+  }
 .banner_wrapper .swiper .slide-caption {
     height: 100%;
     position: relative;

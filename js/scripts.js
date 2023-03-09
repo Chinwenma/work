@@ -78,3 +78,9 @@ var swiper = new Swiper(".our-partner", {
     },
 });
 
+//preloader
+window.addEventListener("load", function() {
+    var preloader = document.getElementById("preloader");
+    preloader.style.display = "none";
+  });
+
